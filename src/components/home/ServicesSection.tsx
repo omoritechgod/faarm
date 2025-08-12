@@ -56,7 +56,7 @@ const ServicesSection = () => {
             Our Services
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 animate-slide-up animate-delay-200">
-            Why Choose <span className="text-primary">FAMOUS?</span>
+            Why Choose <span className="text-primary">FAMOS?</span>
           </h2>
           <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed animate-fade-in animate-delay-300">
             We provide comprehensive services designed to make your experience seamless, 
@@ -130,7 +130,7 @@ const ServicesSection = () => {
                   <Button 
                     size="lg" 
                     variant="outline" 
-                    className="border-white/30 text-white hover:bg-white/10 hover-scale transform transition-all duration-300 text-lg px-8 py-4"
+                    className="border-white/30 bg-transparent text- hover:bg-white/10 hover-scale transform transition-all duration-300 text-lg px-8 py-4"
                   >
                     Learn More
                   </Button>

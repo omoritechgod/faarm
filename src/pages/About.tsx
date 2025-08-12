@@ -25,6 +25,7 @@ import {
   TrendingUp,
   Globe,
   Clock,
+  Boxes,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -116,10 +117,9 @@ const About = () => {
   ];
 
   const stats = [
-    { number: "500+", label: "Projects Completed", icon: CheckCircle },
-    { number: "50+", label: "Happy Clients", icon: Users },
-    { number: "24/7", label: "Support Available", icon: Clock },
-    { number: "99.9%", label: "Uptime Guarantee", icon: TrendingUp },
+    { number: "1467+", label: "Happy Clients", icon: Users },
+    { number: "13", label: "Countries In Africa-Client Base", icon: Globe },
+    { number: "8650+", label: "IT Products", icon: Boxes },
   ];
 
   return (
@@ -256,14 +256,14 @@ const About = () => {
         </section>
 
         {/* Stats Section */}
-        <section className="mb-16">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <section className="mb-16 min-h-52 flex justify-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 place-content-center">
             {stats.map((stat, index) => {
               const IconComponent = stat.icon;
               return (
                 <Card
                   key={index}
-                  className="text-center p-6 border-primary/20 hover:shadow-lg transition-shadow animate-fade-in"
+                  className=" text-center p-6 border-primary/20 hover:shadow-lg transition-shadow animate-fade-in"
                   style={{ animationDelay: `${index * 150}ms` }}
                 >
                   <div className="flex justify-center mb-3">
