@@ -56,7 +56,7 @@ const ServicesSection = () => {
             Our Services
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 animate-slide-up animate-delay-200">
-            Why Choose <span className="text-primary">FAMOS?</span>
+            Why Choose <span className="text-primary">FAMOUS?</span>
           </h2>
           <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed animate-fade-in animate-delay-300">
             We provide comprehensive services designed to make your experience seamless, 
