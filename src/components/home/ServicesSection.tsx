@@ -130,7 +130,7 @@ const ServicesSection = () => {
                   <Button 
                     size="lg" 
                     variant="outline" 
-                    className="border-white/30 text-white hover:bg-white/10 hover-scale transform transition-all duration-300 text-lg px-8 py-4"
+                    className="border-white/30 bg-transparent text- hover:bg-white/10 hover-scale transform transition-all duration-300 text-lg px-8 py-4"
                   >
                     Learn More
                   </Button>
